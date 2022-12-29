@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+img {
+  margin: 5px;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  bottom: -43px;
+  left: 45%;
+  padding: 9px 20px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.2784313725);
+  background-color: rgba(137, 88, 7, 0.9019607843);
+  color: white;
+  transition: 0.45s;
+}
+.btn:hover {
+  transform: scale(1.109);
+  background-color: rgba(137, 87, 7, 0.431372549);
+  transition: 0.45s;
+}/*# sourceMappingURL=style.css.map */

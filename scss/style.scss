@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+img {
+    margin: 5px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.btn{
+    position: absolute;
+    bottom: -43px;
+    left: 45%;
+    padding: 9px 20px;
+    cursor: pointer;
+    border: 1px solid #00000047;
+    background-color: #895807e6;
+    color: white;
+    transition: calc(0.45s); 
+    &:hover{
+    transform: scale(1.109);
+    background-color: #8957076e;
+    transition: calc(0.45s);
+    }
+}
